@@ -2,7 +2,7 @@
 
 def groupAnagrams(strings):
   
-  dictionary = {} # Mapping charCount ---> list Of Anagrams
+  dictionary = defaultdict(list) # Mapping charCount ---> list Of Anagrams
   
   # Go through every string
 	# e.g 'eat'
